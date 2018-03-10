@@ -20,22 +20,21 @@ python3 client.py [username]
 
 __Expected Output__
 
-#Bob's client
+# Bob's client
 ```sh
 python3 client.py Bob
 User[Bob] Connected to the chat server.
-> 
-[Alice]: Hi from Alice
-[Smith]: Hi from Smith
-[Bob]> Hello World
+[Bob] > 
+[Alice]: Hi from Alice.
+[Smith]: Hi from Smith.
+[Bob] > Hello World
 ```
 
-#Bob's client
+# Alice's client
 ```sh
 python3 client.py Bob
-User[Alice] Connected to the chat server.
-> 
-[Alice]: Hi from Alice
-[Smith]: Hi from Smith
+User[Alice] Connected to the chat server. 
+[Alice] > Hi from Alice.
+[Smith]: Hi from Smith.
 [Bob]: Hello World
 ```
