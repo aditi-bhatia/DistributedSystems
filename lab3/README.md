@@ -31,7 +31,7 @@ User[Bob] Connected to the chat server.
 ```
 
 #Bob's client
-sh
+```sh
 python3 client.py Bob
 User[Alice] Connected to the chat server.
 > 
